@@ -3,8 +3,9 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 class HomeScreen extends StatelessWidget {
   WebViewController? controller;
-  final homeUrl =
-      'https://free.ybmclass.com/free/toeic/toeic_5min_view.asp?wdate=2023-02-02&page=1';
+  //final homeUrl =
+  //    'https://free.ybmclass.com/free/toeic/toeic_5min_view.asp?wdate=2023-02-02&page=1';
+  final homeUrl = "http://modamtech.com/modam.html";
   HomeScreen({Key? key}) : super(key: key);
 
   @override
